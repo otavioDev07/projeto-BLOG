@@ -3,7 +3,7 @@ Estudo de Flask, Bootstrap e SQLite3
 
 ## Features
 * Login com usuário e senha
-* deletar e fazer postagens
+* Deletar e fazer postagens
 * Opção de Logoff
 * Funções especiais para admnistrador do blog
 
