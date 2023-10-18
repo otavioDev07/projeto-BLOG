@@ -19,6 +19,11 @@ Estudo de Flask, Bootstrap e SQLite3
 * Acesse a pasta do projeto e execute o arquivo **<blog.py>**
 * Abra o terminal e acesse o endereço IP fornecido pelo servidor
 
+# Como utilizar
+Para fazer posts dentro do blog, clique no botão login e insira os seguintes dados:
+usuário : admin
+senha: 1234
+
 # Autor
 - Otávio Ribeiro Leite Neto
 - Contato: netootavio223@outlook.com
