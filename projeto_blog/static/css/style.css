@@ -1,0 +1,102 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.width-css {
+    width: 200px;
+}
+
+footer {
+    height: 80px;
+    background-color: #0D6DFB;
+    font-size: 10px;
+    padding: 15px;
+    width: 100%;
+    text-align: center;
+}
+
+main {
+    min-height: 40em;
+}
+
+.titulo {
+    margin-left: 40%;
+}
+
+main h1 {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-top: 5%;
+    font-size: 40px;
+}
+
+.box-form {
+    margin-top: 8%;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid black;
+    width: 22em;
+    margin-left: 36em;
+    margin-top: -5%;
+    box-shadow: 5px 5px 10px #a4a4a4;
+}
+
+#postagem {
+    width: 100%;
+    min-height: 500px;
+    /* Altura Minima */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+#postagem .box {
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+    box-shadow: 5px 5px 10px #a4a4a4;
+    margin: 10px;
+    text-align: center;
+
+}
+
+.tittle-box {
+    display: flex;
+    justify-content: space-around;
+}
+
+.excluir {
+    color: #000;
+    cursor: pointer;
+    padding: 0;
+    font-size: 20px;
+    font-weight: 900;
+    text-decoration: none;
+}
+
+.box p {
+    margin-top: 5%;
+}
+
+.box-form input[type='submit'] {
+    margin-bottom: 10%;
+}
+
+.button-novoPost {
+    margin-right: -1000px;
+}
+
+#msg-error {
+    font-size: 1em;
+}

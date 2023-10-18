@@ -1,0 +1,35 @@
+{% extends 'modelo.html' %}
+
+{% block conteudo %}
+
+{% if not(posts)%}
+<h1>Não há postagens!</h1>
+{% else %}
+<div id="postagem">
+    {% for post in posts %}
+    <div class="box">
+        {% if logado %}
+        <a href="/excluir/{{post['id']}}" class="excluir"><i class="bi bi-trash"></i></a>
+        {% endif %}
+        <div class="tittle-box">
+            <h2>{{post['titulo']}}</h2>
+        </div>
+        <p>{{post['conteudo']}}</p>
+    </div>
+    {% endfor %}
+</div>
+{% endif %}
+{% endblock %}
+{% block botao %}
+
+{% if logado == True %}
+<a href="/postar"><button class="btn btn-outline-light btn-lg width-css button-novoPost" type="submit">Novo
+        Post</button></a>
+{% endif %}
+
+{% if logado == False %}
+<a href="/login"><button class="btn btn-outline-light btn-lg" type="submit">Login</button></a>
+{% else %}
+<a href="/logoff"><button class="btn btn-outline-light btn-lg" type="submit">Logoff</button></a>
+{% endif%}
+{% endblock %}

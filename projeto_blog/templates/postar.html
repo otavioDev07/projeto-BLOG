@@ -1,0 +1,21 @@
+{% extends 'modelo.html' %}
+
+{% block botao %}
+
+<a href="/"><button class="btn btn-outline-light btn-lg width-css" type="submit">Voltar</button></a>
+
+{% endblock %}
+
+{% block conteudo %}
+
+    <div class="box-form">
+        <form action="/cadpost" method="post">
+            <h2>Faça a sua postagem: </h2>
+            <label>Título</label><br>
+            <input type="text" name="titulo" id="titulo" required><br><br>
+            <label>Conteúdo do post:</label><br>
+            <textarea name="conteudo" id="conteudo" cols="30" rows="5" style="resize: none;" required></textarea><br><br>
+            <button class="btn btn-info btn-lg mb-5 ">POSTAR</button>
+        </form>
+    </div>
+{% endblock %}
