@@ -16,7 +16,7 @@ Estudo de Flask, Bootstrap e SQLite3
 * Abra o **git bash ou terminal** dentro dessa pasta
 * Copie a **URL do repositório**
 * Digite **git clone (URL copiada)** e pressione **enter**
-* Acesse a pasta do projeto que desejar e execute o **<blog.py>**
+* Acesse a pasta do projeto e execute o arquivo **<blog.py>**
 * Abra o terminal e acesse o endereço IP fornecido pelo servidor
 
 # Autor
