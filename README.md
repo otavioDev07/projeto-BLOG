@@ -1,6 +1,12 @@
 # projeto-BLOG
 Estudo de Flask, Bootstrap e SQLite3
 
+## Features
+* Login com usuário e senha
+* deletar e fazer postagens
+* Opção de Logoff
+* Funções especiais para admnistrador do blog
+
 ## Tecnologias utilizadas
 * HTML
 * CSS
