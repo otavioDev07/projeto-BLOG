@@ -21,8 +21,8 @@ Estudo de Flask, Bootstrap e SQLite3
 
 # Como utilizar
 Para fazer posts dentro do blog, clique no botão login e insira os seguintes dados:
-usuário : admin
-senha: 1234
+* usuário : admin
+* senha: 1234
 
 # Autor
 - Otávio Ribeiro Leite Neto
